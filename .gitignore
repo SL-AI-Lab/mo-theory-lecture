@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Slide render outputs
+*.pdf
+*.html
+*.pptx
+*.beamer
+
+# Figures (large binary files)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.eps
+*.psd
+
+# Build artifacts from slide compilation
+node_modules/
+
+# Bibliography caches
+.bibcache/
