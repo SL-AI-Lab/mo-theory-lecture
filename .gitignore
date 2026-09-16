@@ -1,41 +1,23 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# .gitignore for lecture markdown content
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# IDE
-.vscode/
-.idea/
+# Compiled / generated outputs
+*.pdf
+*.pptx
+*.html
 *.swp
-*.swo
-*~
+*.tmp
 
-# OS
+# OS / editor junk
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+*.iml
 
-# Slide render outputs
-*.pdf
-*.html
-*.pptx
-*.beamer
-
-# Figures (large binary files)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.eps
-*.psd
-
-# Build artifacts from slide compilation
+# Build artifacts
+build/
+dist/
 node_modules/
 
-# Bibliography caches
-.bibcache/
+# Figures that can be regenerated
+figures/*.png.bak

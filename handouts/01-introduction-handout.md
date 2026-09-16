@@ -1,52 +1,79 @@
-# Introduction to Molecular Orbital Theory — Handout
+# Handout 01: Introduction — Detailed Notes
 
-## 1. Historical Context
+## Learning Objectives (recap)
 
-The molecular orbital (MO) theory was developed in the 1930s by Robert Mulliken, Friedrich Hund, and others as an alternative to valence bond theory. Unlike VB theory, which localizes electrons between specific atom pairs, MO theory treats electrons as delocalized over the entire molecule.
+- Distinguish MO theory from Lewis/valence-bond models
+- Understand the conceptual role of delocalized electrons
+- Preview the topics and how they connect
 
-## 2. Fundamental Postulates
+## What MO Theory Adds
 
-### 2.1 The MO Approximation
+Lewis structures and valence-bond (VB) theory treat bonds as localized pairs
+shared between two atoms. This works well for many organic molecules but
+fails to explain a range of observable facts:
 
-The electronic wavefunction of a molecule is approximated as a single Slater determinant constructed from one-electron molecular orbitals:
+- **Magnetic behavior**: O2 is paramagnetic in the liquid and gas phases, yet
+  Lewis theory predicts all electrons paired.
+- **Bond order beyond a single Lewis pair**: delocalization in conjugated
+  systems and in molecules like N2 (triple) is naturally captured by MOs.
+- **Spectroscopy**: electronic transitions and ionization energies are easier
+  to interpret with a molecular orbital level diagram.
 
-$$\Psi(\mathbf{r}_1, \mathbf{r}_2, \ldots) = \frac{1}{\sqrt{N!}} \det[\chi_i(\mathbf{r}_j)]$$
+MO theory instead builds **molecular orbitals** that extend over the whole
+molecule. Each electron occupies a delocalized orbital defined by combining
+atomic orbitals (AOs).
 
-### 2.2 The LCAO Ansatz
+## Core Assumptions
 
-Each molecular orbital is expressed as a linear combination of atomic orbitals:
+1. Electrons occupy molecular orbitals ψ_i, each approximated by the LCAO method.
+2. Two electrons (opposite spin) may occupy each orbital (Pauli principle).
+3. Orbitals fill in increasing energy (Aufbau) with Hund's rule for degenerate levels.
+4. The **bond order** measures net bonding and is obtained from the electron configuration.
 
-$$\psi_i = \sum_{\mu} c_{\mu i} \phi_\mu$$
+## The Big Picture: How the Lecture Fits Together
 
-where $\phi_\mu$ are basis atomic orbitals and $c_{\mu i}$ are variational coefficients.
+```
+Atomic orbitals (n, l, m_l)      -- review, slide 02
+        |
+        v
+LCAO combination                 -- slide 03
+        |
+        v
+Homonuclear MO diagrams          -- slide 04
+        |
+        |__+ electronegativity
+        v
+Heteronuclear diatomics          -- slide 05
+        |
+        v
+Ordering & s-p mixing            -- slide 06
+        |
+        v
+Bond order / strength / length   -- slide 07
+        |
+        v
+Magnetic properties              -- slide 08
+        |
+        v
+Band theory (extended systems)   -- slide 09
+        |
+        v
+Applications & limitations        -- slide 10
+```
 
-## 3. Bonding vs. Antibonding Interactions
+## Self-Check Questions
 
-When two atomic orbitals combine:
+1. What observable property of O2 can MO theory explain that Lewis theory cannot?
+2. What does "delocalized" mean for a molecular orbital?
+3. What is the role of the Pauli exclusion principle in filling MOs?
 
-- **Bonding orbital**: constructive interference, lower energy than constituent AOs
-- **Antibonding orbital**: destructive interference, higher energy than constituent AOs
-- **Nonbonding orbital**: no net overlap, energy approximately equal to constituent AO
+### Answers
 
-## 4. Bond Order
+1. Paramagnetism (two unpaired electrons).
+2. The orbital extends over multiple nuclei rather than being localized between two.
+3. Each MO holds at most two electrons of opposite spin.
 
-$$\text{Bond Order} = \frac{n_b - n_a}{2}$$
+## Reading
 
-where $n_b$ is the number of electrons in bonding orbitals and $n_a$ is the number in antibonding orbitals.
-
-## 5. Worked Example: H₂ Molecule
-
-The hydrogen molecule has two electrons that occupy the $\sigma_{1s}$ bonding orbital:
-
-- Configuration: $(\sigma_{1s})^2$
-- Bond order = (2 - 0) / 2 = **1**
-- Predicts a stable single bond — consistent with experiment.
-
-## 6. Key References
-
-- Mulliken, R. S. (1932). *Physical Review*, 41, 49.
-- Atkins, P., & Friedman, R. (2011). *Molecular Quantum Mechanics* (5th ed.). Oxford University Press.
-
----
-
-_Draft status:_ Placeholder content. Full derivations and examples to be added in SVA-70.
+- Atkins & de Paula, *Physical Chemistry*, ch. on molecular structure/bonding.
+- Levine, *Quantum Chemistry*, ch. on the molecular orbital method.

@@ -1,30 +1,55 @@
----
-title: "Introduction to Molecular Orbital Theory"
-author: ""
-date: ""
-output: pdf_document
+# Slide 01: Introduction & Learning Objectives
+
 ---
 
-## Overview
+## Molecular Orbital Theory — A Predictive Framework
 
-- Why molecular orbitals?
-- Limitations of valence bond theory
-- The MO approximation
+- Extends Lewis/valence-bond pictures to describe **delocalized electrons**
+- Explains properties Lewis theory cannot: magnetic behavior, bond order, spectra
+- Central idea: electrons occupy **molecular orbitals** spanning the whole molecule
+- Built from **atomic orbitals** by linear combination (LCAO)
 
-## Key Concepts
+---
 
-- Linear combination of atomic orbitals (LCAO)
-- Bonding vs. antibonding interactions
-- Orbital energy diagrams
+## Why Study MO Theory?
+
+- Predicts **bond order**, **bond strength**, and **bond length**
+- Explains **magnetic properties** (why O2 is paramagnetic)
+- Predicts **spectroscopy** (allowed electronic transitions)
+- Foundation for **computational chemistry** and **band theory of solids**
+
+---
 
 ## Learning Objectives
 
-After this lecture, students will be able to:
+By the end of this lecture you should be able to:
 
-1. Explain the fundamental postulates of MO theory
-2. Construct simple MO diagrams for diatomic molecules
-3. Relate bond order to molecular stability
+1. Relate quantum numbers to the shapes of s, p, d, f orbitals
+2. Construct molecular orbitals using the LCAO method
+3. Draw and interpret MO diagrams for homonuclear diatomics
+4. Account for electronegativity in heteronuclear diatomics
+5. Compute bond order and relate it to bond strength/length
+6. Predict magnetic behavior (paramagnetic vs diamagnetic)
+7. Extend the picture to band theory for extended solids
 
 ---
 
-_Speaker notes:_ Content to be drafted in coordination with Scientific Writer (SVA-70).
+## Lecture Roadmap
+
+1. Atomic orbitals review
+2. LCAO method and principles
+3. Homonuclear diatomics (H2, He2, N2, O2, F2)
+4. Heteronuclear diatomics (CO, NO, HF)
+5. MO ordering and s–p mixing
+6. Bond order
+7. Magnetic properties (O2)
+8. Band theory
+9. Applications and limitations
+
+---
+
+## Reading / References
+
+- Atkins, P.; de Paula, J. *Physical Chemistry*, Oxford University Press
+- Levine, I. N. *Quantum Chemistry*, Pearson
+- P. W. Atkins, *Molecular Quantum Mechanics*

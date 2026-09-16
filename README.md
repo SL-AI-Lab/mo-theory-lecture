@@ -1,54 +1,48 @@
-# Molecular Orbital Theory — Lecture Slides & Handouts
+# Molecular Orbital (MO) Theory: Lecture Slides and Handouts
 
-A collection of lecture slides and detailed handouts covering Molecular Orbital (MO) Theory, designed for computational chemistry education.
+A comprehensive undergraduate/graduate-level lecture package on Molecular
+Orbital (MO) theory, prepared as slide-ready markdown sections paired with
+detailed handout material containing derivations, worked examples, and
+practice problems with solutions.
 
-## Overview
+## Content Overview
 
-This repository contains educational materials for a university-level course on Molecular Orbital Theory. The content progresses from foundational concepts to advanced applications in computational chemistry.
+1. Introduction and learning objectives
+2. Atomic orbitals review (s, p, d, f) and quantum numbers
+3. The LCAO (Linear Combination of Atomic Orbitals) method
+4. Homonuclear diatomic molecules (H2, He2, N2, O2, F2)
+5. Heteronuclear diatomics (CO, NO, HF) and electronegativity
+6. MO energy ordering and s–p mixing
+7. Bond order and its relation to bond strength/length
+8. Magnetic properties from MO theory (paramagnetic O2)
+9. Extended systems: band theory overview
+10. Applications and limitations of MO theory
 
-### Prerequisites
-
-- General chemistry (atomic structure, chemical bonding)
-- Calculus and linear algebra fundamentals
-- Basic quantum mechanics
-
-## Structure
+## Repository Layout
 
 ```
-slides/            # Slide content (markdown format, compatible with reveal.js or pandoc)
-  01-introduction.md
-  02-lcao-method.md
-  ...
-handouts/          # Detailed handout material with derivations and examples
-  01-introduction-handout.md
-  02-lcao-handout.md
-  ...
-figures/           # MO diagrams, orbital illustrations, and computational outputs
-references.bib     # Bibliography for cited works
+README.md                  Lecture overview and usage
+slides/                    Slide-ready markdown (concise bullets)
+handouts/                  Detailed handout material (derivations, examples, exercises)
+figures/                   MO diagrams and orbital illustrations
+references/references.bib  Bibliography (Atkins & de Paula, Levine, ...)
 ```
 
 ## How to Use
 
-### Slides
+- **Slides**: each file in `slides/` is self-contained, uses clear section
+  breaks, learning objectives, and concise bullet points suitable for direct
+  conversion to PowerPoint, reveal.js, Marp, or LaTeX beamer.
+- **Handouts**: each matching file in `handouts/` expands the same material
+  with full derivations, worked numerical examples, and practice problems
+  (with solutions) for self-study or homework.
 
-Slide files are written in markdown format. They can be rendered using:
+## Prerequisites
 
-- **Pandoc**: `pandoc slides/01-introduction.md -o 01-introduction.pdf`
-- **reveal.js**: Convert markdown to HTML slides (see individual slide headers)
-- **Direct reading**: Each file includes speaker notes for the lecturer
-
-### Handouts
-
-Handout files provide expanded derivations, worked examples, and supplementary explanations. They are intended as student-facing reference material complementary to the slides.
-
-### Figures
-
-Orbital diagrams and computational output figures go in `figures/`. Use descriptive filenames (e.g., `h2-lcao-diagram.png`).
+- General chemistry (atomic structure, quantum numbers, electronegativity)
+- Basic algebra and an introduction to wavefunctions/operators
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) file.
-
-## Dependencies
-
-Content drafting is tracked separately in [SVA-70](/SVA/issues/SVA-70).
+Educational material. See the repository LICENSE file (CC-BY-4.0 recommended
+for lecture content).
